@@ -40,7 +40,7 @@ error_reporting(0);
 	</script-->
 	<!-- End Matomo Code -->
 
-	<title>Pengumuman SBMPTN LTMPT 2020</title>
+	<title>Pengumuman Seleksi SBMPTN LTMPT 2020</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /-->	
@@ -162,7 +162,7 @@ error_reporting(0);
 					<small id="nopes-help" class="form-text text-muted">Masukkan 10-digit nomor peserta SBMPTN Anda.</small>
 				</div-->
 				<div class="form-group">
-					<label for="nopes">Nomor peserta SBMPTN</label>
+					<label for="nopes">Nomor peserta SBMPTN Anda</label>
 					<input type="number" id="nopes" name="nopes" class="form-control no-spinners" tabindex="1" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="12" autocomplete="off" required="">
 					<small id="nopes-help" class="form-text text-muted">Masukkan 12-digit nomor peserta UTBK-SBMPTN Anda.</small>
 				</div>
@@ -242,7 +242,7 @@ error_reporting(0);
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="bidikmisi">Peserta Bidik Misi?</label>
+					<label for="bidikmisi">Peserta SBMPTN Bidik Misi?</label>
 					<select name="bidikmisi" id="bidikmisi" class="form-control no-spinners" tabindex="6" autocomplete="off" required="">
 						<option value="tidak" selected="">Tidak</option>
 						<option value="ya">Ya</option>
@@ -252,7 +252,7 @@ error_reporting(0);
 				<div class="form-group">
 					<label for="kodeptn">PTN</label>
 					<select name="kodeptn" id="kodeptn" class="form-control no-spinners" tabindex="7" autocomplete="off" required="">
-						<option value="" selected="">-- Pilih PTN --</option>
+						<option value="" selected="">-- Pilih PTN Anda --</option>
 					</select>
 					<small id="kodeptn-help" class="form-text text-muted">Pilih PTN Anda.</small>
 				</div>
@@ -264,7 +264,7 @@ error_reporting(0);
 					<small id="jurusan-help" class="form-text text-muted">Pilih Jurusan Anda.</small>
 				</div>
 				<div class="form-group">
-					<label for="prodi">Prodi</label>
+					<label for="prodi">Prodi Kuliah</label>
 					<select name="prodi" id="prodi" class="form-control no-spinners" tabindex="9" autocomplete="off" required="">
 						<option value="" selected="">-- Pilih Prodi --</option>
 					</select>
@@ -360,7 +360,7 @@ error_reporting(0);
 							</div>
 							<div class="row no-gutters">
 								<div class="col-auto col-sm-3">
-									Program Studi
+									Program Studi PTN
 								</div>
 								<div class="col-6 col-sm-1">
 									:
